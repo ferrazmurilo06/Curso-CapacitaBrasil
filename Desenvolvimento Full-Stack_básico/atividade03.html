@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Inscrição</title>
+</head>
+<body>
+    <h1>Atividade de formulário</h1>
+    <form action="/atividade03.html" method="get">
+        <label for="name_id">Nome: </label>
+        <input id="name_id" name="name" type="text" required>
+        <br>
+        <br>
+
+        <label for="nascimento_id">Data de Nascimento: </label>
+        <input id="nascimento_id" name="nascimento" type="date" required>
+        <br>
+        <br>
+
+        <label>Modalidade de competição: </label>
+        <br>
+        <label for="mountain-bike_id">Mountain Bike</label>
+        <input type="radio" name="modalidade" id="mountain-bike_id" value="Mountain Bike">
+        <label for="ciclismo_id">Ciclismo de Estrada</label>
+        <input type="radio" name="modalidade" id="ciclismo_id" value="Ciclismo de Estrada">
+        <br>
+        <br>
+
+        <label>Experiência: </label>
+        <br>
+        <label for="iniciante_id">Iniciante</label>
+        <input type="radio" name="experiência" id="iniciante_id" value="Iniciante">
+        <label for="intermediario_id">Intermediário</label>
+        <input type="radio" name="experiência" id="intermediario_id" value="Intermediário">
+        <label for="avançado_id">Avançado</label>
+        <input type="radio" name="experiência" id="avançado_id" value="Avançado">
+        <br>
+        <br>
+
+        <label>Alimentação do candidato: </label>
+        <input list="alimentação" name="alimentação" required>
+        <datalist id="alimentação">
+            <option value="água">Água</option>
+            <option value="Lanche-pequeno">Lanche-pequeno</option>
+            <option value="Lanche-completo">Lanche-completo</option>
+            <option value="Coca Zero">Coca Zero</option>
+            <option value="Barra Proteica">Barra Proteica</option>
+        </datalist>
+        <br>
+        <br>
+
+        <label>Aceita os Termos de Compromisso do evento?</label>
+        <br>
+        <label for="sim_id">Sim</label>
+        <input type="checkbox" name="sim" id="sim_id" value="Sim">
+        <label for="nao_id">Não</label>
+        <input type="checkbox" name="não" id="nao_id" value="Não">
+        <br>
+        <br>
+
+        <input type="submit" value="Enviar">
+
+    </form>
+
+</body>
+</html>
