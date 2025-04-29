@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    
+    <h1>Lolapalooza-Fake</h1>
+    <form action="/atividade04.html" method="get">
+        <label for="nome_id">Nome: </label>
+        <input type="text" name="nome" id="nome_id">
+        <br>
+        <br>
+
+        <label for="email_id">Email: </label>
+        <input type="email" name="email" id="email_id">
+        <br>
+        <br>
+
+        <label for="nascimento_id">Nascimento: </label>
+        <input type="date" name="nascimento" id="nascimento_id">
+        <br>
+        <br>
+
+        <label for="cor-credencial_id">Cor da Credencial: </label>
+        <input type="color" name="cor-credencial" id="cor-credencial_id">
+        <br>
+        <br>
+
+        <label for="experiência-musical_id">Nível de experiência musical: </label>
+        <br>
+        <input type="range" name="experiência" id="experiência-musical_id" value="1">
+        <br>
+        <br>
+
+        <label for="telefone_id">Telefone de Contato:</label>
+        <input type="tel" name="telefone" id="telefone_id">
+        <br>
+        <br>
+
+        <label for="portfolio-musical_id">Link de Portfólio: </label>
+        <input type="url" name="portfolio-musical" id="portfolio-musical_id">
+        <br>
+        <br>
+
+        <label for="data-hora_id">Data/hora para workshops: </label>
+        <br>
+        <input type="datetime" name="data-hora" id="data-hora_id">
+        <br>
+        <br>
+
+        <label for="mês_id">Mês para Apresentações: </label>
+        <br>
+        <input type="month" name="mês" id="mês_id">
+        <br>
+        <br>
+
+        <label for="ensaios_id">Horário de Ensaios:</label>
+        <input type="time" name="ensaios" id="ensaios_id">
+        <br>
+        <br>
+
+        <label for="semana-festival_id">Semana do Festival: </label>
+        <input type="week" name="semana-festival" id="semana-festival_id">
+        <br>
+        <br>
+
+        <label for="ingressos_id">Número de Ingressos Desejados: </label>
+        <input type="number" name="ingressos" id="ingressos_id">
+        <br>
+        <br>
+
+        <label for="gênero_id">Gênero Musical: </label>
+        <input type="search" name="gênero" id="gênero_id">
+        <br>
+        <br>
+
+        <input type="submit" value="Inscrevers-se no Festival!!">
+
+    </form>
+
+</body>
+</html>
