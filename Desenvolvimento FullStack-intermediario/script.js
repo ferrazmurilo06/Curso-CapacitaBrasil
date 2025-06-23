@@ -1,6 +1,6 @@
 console.log("Hello World!!!!");
 
-alert("Bem vindo ao JavaScript!!!!");
+//alert("Bem vindo ao JavaScript!!!!");
 
 // comentário
 /*
